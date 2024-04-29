@@ -1,0 +1,169 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    width: 98%;
+}
+.body{
+    font-family: sans-serif;
+}
+.btn{
+    margin: 15px;
+    padding: 1px 1px;
+    /* background-color: black;  */
+    color: white;
+    border: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn_1{
+    background-color: black; 
+    color: white;
+    margin: 10px;
+    padding: 7px;
+}
+.btn_1:hover {
+    background-color: black;
+    color: lightgray;
+    transition: background-color 0.3s;
+}
+.btn_2{
+    background-color: white; 
+    color: black;
+    border: none;
+    padding: 7px;
+}
+.btn_2:hover {
+    background-color: black;
+    color: white;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+.rgs{
+    background-color: black;
+    color: #fff;
+}
+
+.logo{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+.li{
+    display: inline-block;
+    margin-right: 20px;
+    list-style-type: none;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+.list_item{
+    margin: 10px;
+}
+.parent_card{
+    display: flex;
+    height: 10px;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+}
+.card{
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+}
+.card_heading_1{
+    width: 100%;
+}
+.card_text_1{
+    width: 100%;
+    text-align: left;
+}
+.card_text{
+    width: 300px;
+}
+.card_img{
+    width: auto;
+    height: auto;
+}
+.rows{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.card_row_3{
+    width: 600;
+    text-align: right;
+}
+.card_heading_articels{
+    text-align: left;
+}
+.card_text_articels{
+    text-align: left;
+    width: 100%;
+}
+.card_footer_articels{
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+}
+
+.section2{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.btn_3{
+    background-color: white; 
+    color: black;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 7px;
+}
+.btn_3:hover {
+    background-color: gray;
+    color: white;
+}
+
+.container{
+    background-color: rgb(17, 113, 192);
+    color: #fff;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin: 10px;
+    margin-left: 100px;
+    text-align: center;
+    padding: 70px;
+}
+.img_sec3{
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin: 10px;
+}
+
+.section3{
+    padding: 2px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.section4{
+    padding: 1rem;
+    width: 100%;
+    border-bottom: 2px solid gray;
+}
